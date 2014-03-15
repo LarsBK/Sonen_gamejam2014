@@ -29,12 +29,13 @@ public class Health : MonoBehaviour {
 	public void hurt(float dm) {
 				health -= dm;
 				
-		int i = Random.Range (0, hurtSounds.Length - 1);
-		//audio.Play ();
-		audio.PlayOneShot (hurtSounds [i]);
+
 
 				if (health <= 0) {
-			isDead = true;
+						isDead = true;
+				} else {
+						int i = Random.Range(0, hurtSounds.Length);
+						audio.PlayOneShot (hurtSounds [i]);
 				}
 		}
 }
