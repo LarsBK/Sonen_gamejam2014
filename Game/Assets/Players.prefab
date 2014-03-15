@@ -405,8 +405,8 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: 5
-  m_Center: {x: 2, y: 0}
+  m_Radius: 5.5
+  m_Center: {x: 2.5, y: -.5}
 --- !u!58 &5800002
 CircleCollider2D:
   m_ObjectHideFlags: 1
