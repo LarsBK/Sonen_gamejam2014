@@ -41,6 +41,9 @@ public class PlayerController : MonoBehaviour {
 			if (Mathf.Abs (rigidbody2D.velocity.y) >= maxSpeed && ((rigidbody2D.velocity.y * moveVector.y) > 0))
 				forceVector.y = 0;
 			forceVector *= moveForce;
+			float aimAngle = (float) (((Mathf.Atan2(rigidbody2D.velocity.x, rigidbody2D.velocity.y) * 180.0)) / (((double)Mathf.PI)));
+			transform.rotation = Quaternion.RotateTowards(
+				transform.rotation, Quaternion.Euler(0, 0, aimAngle - 90), rotationSpeed*Time.fixedDeltaTime);
 		} else { //Slow down
 			forceVector = rigidbody2D.velocity * (float) -1.0;
 			forceVector.Normalize();
@@ -51,11 +54,13 @@ public class PlayerController : MonoBehaviour {
 		rigidbody2D.AddForce (forceVector * Time.fixedDeltaTime);
 
 		//Rotate accoring to aim
+		/*
 		if (aimVector.magnitude > 0.6) {
 			aimVector.Normalize ();
 			float aimAngle = (float) (((Mathf.Atan2(aimVector.x, aimVector.y) * 180.0)) / (((double)Mathf.PI)));
 			transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, aimAngle), rotationSpeed*Time.fixedDeltaTime);
 		} 
+		*/
 
 	}
 }
