@@ -695,7 +695,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1409004344}
   m_Mass: 1
-  m_LinearDrag: 5
+  m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
   m_FixedAngle: 1
@@ -751,8 +751,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllerNum: 1
-  moveForce: 900
-  maxSpeed: 100
+  moveForce: 400
+  slowDownForce: 800
+  maxSpeed: 10
   rotationSpeed: 360
 --- !u!1 &1703580363
 GameObject:
