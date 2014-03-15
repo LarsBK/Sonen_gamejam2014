@@ -25,7 +25,8 @@ public class PlayerController : MonoBehaviour {
 		moveVector.x = Input.GetAxis (inputPrefix + "move x");
 		moveVector.y = Input.GetAxis (inputPrefix + "move y");
 		aimVector.x = (float) (Input.GetAxis (inputPrefix + "aim x") * -1.0);
-		aimVector.y = Input.GetAxis(inputPrefix + "aim y");
+		aimVector.y = (float) (Input.GetAxis(inputPrefix + "aim y") * -1.0);
+		print (moveVector);
 
 	}
 
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 
 		Vector2 forceVector = moveVector;
 
-		if (moveVector.magnitude > 0.5) { //speed up
+		if (moveVector.magnitude > 0.1) { //speed up
 			//Limit speed
 			if (Mathf.Abs (rigidbody2D.velocity.x) >= maxSpeed && ((rigidbody2D.velocity.x * moveVector.x) > 0))
 				forceVector.x = 0;
@@ -46,13 +47,11 @@ public class PlayerController : MonoBehaviour {
 			forceVector *= slowDownForce;
 		}
 
-		print (rigidbody2D.velocity);
-
 		//Apply move force
 		rigidbody2D.AddForce (forceVector * Time.fixedDeltaTime);
 
 		//Rotate accoring to aim
-		if (aimVector.magnitude > 0.5) {
+		if (aimVector.magnitude > 0.1) {
 			aimVector.Normalize ();
 			float aimAngle = (float) (((Mathf.Atan2(aimVector.x, aimVector.y) * 180.0)) / (((double)Mathf.PI)));
 			transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, 0, aimAngle), rotationSpeed*Time.fixedDeltaTime);

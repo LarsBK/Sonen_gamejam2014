@@ -456,6 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   follow: {fileID: 1409004344}
   deadZone: 8
+  stopZone: 4
   moveSpeed: 2
 --- !u!1 &961155475
 GameObject:
@@ -667,10 +668,10 @@ GameObject:
   - 4: {fileID: 1409004345}
   - 212: {fileID: 1409004348}
   - 50: {fileID: 1409004346}
-  - 61: {fileID: 1409004347}
   - 114: {fileID: 1409004349}
+  - 58: {fileID: 1409004347}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -703,18 +704,17 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!61 &1409004347
-BoxCollider2D:
+--- !u!58 &1409004347
+CircleCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100008, guid: 8ce657dbe5f8340219b9d196b7a23d01,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1409004344}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 14.3999996, y: 12.7999992}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 7.19999933
+  m_Center: {x: -3.81469727e-06, y: 7.62939453e-06}
 --- !u!212 &1409004348
 SpriteRenderer:
   m_ObjectHideFlags: 0
