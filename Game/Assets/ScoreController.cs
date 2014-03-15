@@ -8,7 +8,8 @@ public class ScoreController : MonoBehaviour
 		public int startScore = 0;
 		public int score = 0;
 		public string text = "Score: ";
-
+	public AudioClip sound = null;
+	
 		// Use this for initialization
 		void Start ()
 		{
@@ -27,6 +28,7 @@ public class ScoreController : MonoBehaviour
 
 		public void addPoint ()
 		{
-				score++;
+		audio.PlayOneShot(sound);
+		score++;
 		}
 }
