@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 458ad3b41c4c3bd4ba17f98381e5ae2a
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 630
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: suzie_dismemberedVx_0
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2255
+        width: 167
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_1
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 1868
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_2
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1810
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_3
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 1580
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_4
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1162
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_5
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 1021
+        width: 997
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1122
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_7
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 252
+        width: 336
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_8
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 157
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: suzie_dismemberedVx_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 712
+        width: 2144
+        height: 1550
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: suzie_dismemberedVx_10
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 112
+        width: 1034
+        height: 425
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: suzie_dismemberedVx_11
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 1717
+        width: 483
+        height: 442
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
