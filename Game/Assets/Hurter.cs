@@ -24,7 +24,7 @@ public class Hurter : MonoBehaviour {
 	void doHurt(GameObject gm) {
 		if (timerStarted == false) {
 						Health hp = gm.GetComponent<Health> ();
-						if (hp != null && ! hp.isDead()) {
+						if (hp != null && ! hp.isDead) {
 								hp.hurt (damage);
 								lastTime = Time.realtimeSinceStartup ;
 				timerStarted = true;
