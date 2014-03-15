@@ -11,11 +11,13 @@ public class PlayerController : MonoBehaviour {
 
 	private Vector2 moveVector = new Vector2(0,0);
 	private Vector2 aimVector = new Vector2(0,0);
+
+	private Health hpCmp;
 	
 
 	// Use this for initialization
 	void Start () {
-		
+		hpCmp = GetComponent<Health> ();
 	}
 	
 	// Update is called once per frame
@@ -26,11 +28,13 @@ public class PlayerController : MonoBehaviour {
 		moveVector.y = Input.GetAxis (inputPrefix + "move y");
 		aimVector.x = (float) (Input.GetAxis (inputPrefix + "aim x") * -1.0);
 		aimVector.y = (float) (Input.GetAxis(inputPrefix + "aim y") * -1.0);
-		print (moveVector);
 
 	}
 
 	void FixedUpdate() {
+		if (hpCmp.isDead) {
+						return;
+				}
 
 		Vector2 forceVector = moveVector;
 
