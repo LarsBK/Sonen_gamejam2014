@@ -1149,7 +1149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   isDead: 0
-  hurtSounds: []
+  hurtSounds:
+  - {fileID: 8300000, guid: 823bd9211593045d995bfcb4a03d8e04, type: 3}
+  - {fileID: 8300000, guid: 50d3187a3b93a418c8eb4f905e2fd8a7, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1166,6 +1168,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: e26051af34d4a487ca27975b97f6cd27, type: 3}
   - {fileID: 8300000, guid: 1df66f193d1054f4280edaed677be53c, type: 3}
+  - {fileID: 8300000, guid: fb2a8b66ec4fa434f8b983503bebeea5, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
