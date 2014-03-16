@@ -22,6 +22,8 @@ public class Hurter : MonoBehaviour {
 	}
 	
 	void doHurt(GameObject gm) {
+		if (gm.CompareTag (gameObject.tag))
+						return;
 		if (timerStarted == false) {
 						Health hp = gm.GetComponent<Health> ();
 						if (hp != null && ! hp.isDead) {
