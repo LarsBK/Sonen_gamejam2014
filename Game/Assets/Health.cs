@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
 		public float health = 1.0f;
 		public bool isDead = false;
 		public AudioClip[] hurtSounds;
+	public int playersLeft = 2;
 
 		// Use this for initialization
 		void Start ()
@@ -42,7 +43,14 @@ public class Health : MonoBehaviour
 
 				if (health <= 0) {
 						isDead = true;
+			if(gameObject.CompareTag("Player")) {playersLeft--; print ("Player died!");}
+			if(playersLeft == 0 || gameObject.CompareTag("Chain")) {
+				print ("Game Over!");
 						StartCoroutine (gameOver ());
+			} else if(gameObject.CompareTag("Enemy")) {
+				print ("Enemy Died!");
+				GameObject.Destroy(gameObject);
+			}
 				} else {
 						if (hurtSounds.Length > 0) {
 								int i = Random.Range (0, hurtSounds.Length);

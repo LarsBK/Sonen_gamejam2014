@@ -33,7 +33,6 @@ public class Hurter : MonoBehaviour {
 	}
 
 	public void OnTriggerStay2D(Collider2D col) {
-		print (col.gameObject);
 				doHurt (col.gameObject);
 		}
 	public void OnCollisionStay2D(Collision2D col) {
