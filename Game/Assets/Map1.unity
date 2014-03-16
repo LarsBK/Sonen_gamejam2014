@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dedaa678a9394df983a44ea5c7d47ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScore: 70
+  winScore: 80
   startScore: 0
   score: 0
   text: 'Stars Left: '
@@ -57152,7 +57152,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 3c219b6f0b5074e2e8235c4231881680, type: 2}
       propertyPath: winScore
-      value: 70
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c219b6f0b5074e2e8235c4231881680, type: 2}
