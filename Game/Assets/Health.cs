@@ -32,7 +32,9 @@ public class Health : MonoBehaviour
 
 		IEnumerator gameOver ()
 		{
+		Time.timeScale = 0;
 				yield return new WaitForSeconds (5);
+		Time.timeScale = 1;
 				Application.LoadLevel (Application.loadedLevel);
 		}
 

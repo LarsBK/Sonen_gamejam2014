@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1269,7 +1269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1333,7 +1333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1365,7 +1365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1381,7 +1381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
@@ -1397,7 +1397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d259735806544fdb06151437325b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   isDead: 0
   hurtSounds: []
   playersLeft: 2
