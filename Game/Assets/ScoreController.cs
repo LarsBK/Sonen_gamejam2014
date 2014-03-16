@@ -32,6 +32,10 @@ public class ScoreController : MonoBehaviour
 				} else {
 			guiText.text = text + (winScore - score) + " Time: " + string.Format("{0:0.00}",Time.timeSinceLevelLoad);
 				}
+
+		if (Input.GetKey ("escape")) {
+						Application.LoadLevel ("Menu");
+				}
 		}
 
 		public void addPoint ()
