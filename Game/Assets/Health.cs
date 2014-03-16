@@ -60,9 +60,13 @@ public class Health : MonoBehaviour
 							audio.PlayOneShot(deathSound);
 						}
 			if(gameObject.CompareTag("Player")) {playersLeft--; print ("Player died!");}
-			if(playersLeft == 0 || gameObject.CompareTag("Chain")) {
-				print ("Game Over!");
-						StartCoroutine (gameOver ());
+			if(playersLeft == 0) {
+				StartCoroutine (gameOver ());
+			} if(gameObject.CompareTag("Chain")) {
+				GameObject[] gm = GameObject.FindGameObjectsWithTag("Player");
+				foreach( var g in gm) {
+					g.GetComponent<Health>().hurt(100);
+				}
 			} else if(gameObject.CompareTag("Enemy")) {
 				print ("Enemy Died!");
 				GameObject.Destroy(gameObject);

@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14d79ba76976b431b81426ff9f174e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: StartLevel
+  level: Lvl1
 --- !u!61 &279556300
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7123,6 +7123,10 @@ Prefab:
     - target: {fileID: 400000, guid: f24d25854511e46f68b262d33123f741, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: f24d25854511e46f68b262d33123f741, type: 2}
+      propertyPath: level
+      value: Lvl1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f24d25854511e46f68b262d33123f741, type: 2}
