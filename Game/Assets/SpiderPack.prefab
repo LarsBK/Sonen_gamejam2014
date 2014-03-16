@@ -1875,6 +1875,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1918,6 +1919,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1961,6 +1963,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2004,6 +2007,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2047,6 +2051,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2090,6 +2095,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2133,6 +2139,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2148,6 +2155,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2191,6 +2199,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2234,6 +2243,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2277,6 +2287,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2320,6 +2331,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2363,6 +2375,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2406,6 +2419,7 @@ MonoBehaviour:
   isDead: 0
   hurtSounds: []
   playersLeft: 2
+  blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400080
 MonoBehaviour:
   m_ObjectHideFlags: 1
