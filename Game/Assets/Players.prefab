@@ -1811,6 +1811,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 823bd9211593045d995bfcb4a03d8e04, type: 3}
   - {fileID: 8300000, guid: 50d3187a3b93a418c8eb4f905e2fd8a7, type: 3}
+  deathSound: {fileID: 8300000, guid: 907a4d6074f9e4f90a4bed6a4b7f9e05, type: 3}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400006
 MonoBehaviour:
@@ -1829,6 +1830,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e26051af34d4a487ca27975b97f6cd27, type: 3}
   - {fileID: 8300000, guid: 1df66f193d1054f4280edaed677be53c, type: 3}
   - {fileID: 8300000, guid: fb2a8b66ec4fa434f8b983503bebeea5, type: 3}
+  deathSound: {fileID: 8300000, guid: ceff6912572da4bfea93905dcc52aa42, type: 3}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400008
 MonoBehaviour:
@@ -1846,6 +1848,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400010
 MonoBehaviour:
@@ -1863,6 +1866,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400012
 MonoBehaviour:
@@ -1880,6 +1884,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400014
 MonoBehaviour:
@@ -1897,6 +1902,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400016
 MonoBehaviour:
@@ -1914,6 +1920,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400018
 MonoBehaviour:
@@ -1931,6 +1938,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400020
 MonoBehaviour:
@@ -1948,6 +1956,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400022
 MonoBehaviour:
@@ -1965,6 +1974,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400024
 MonoBehaviour:
@@ -1982,6 +1992,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!114 &11400026
 MonoBehaviour:
@@ -1999,6 +2010,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!212 &21200000
 SpriteRenderer:

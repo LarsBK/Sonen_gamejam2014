@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
 		public float health = 1.0f;
 		public bool isDead = false;
 		public AudioClip[] hurtSounds;
+	public AudioClip deathSound;
 	public static int playersLeft = 2;
 	public GameObject blood;
 
@@ -55,6 +56,9 @@ public class Health : MonoBehaviour
 
 				if (health <= 0) {
 						isDead = true;
+						if(deathSound != null) {
+							audio.PlayOneShot(deathSound);
+						}
 			if(gameObject.CompareTag("Player")) {playersLeft--; print ("Player died!");}
 			if(playersLeft == 0 || gameObject.CompareTag("Chain")) {
 				print ("Game Over!");
