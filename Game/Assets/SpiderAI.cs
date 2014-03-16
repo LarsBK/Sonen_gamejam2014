@@ -10,7 +10,9 @@ public class SpiderAI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		direction.x = Random.Range (-1.0f, 1.0f);
+		direction.y = Random.Range (-1.0f, 1.0f);
+		direction.Normalize ();
 	}
 	
 	// Update is called once per frame
