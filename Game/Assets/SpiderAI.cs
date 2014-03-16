@@ -23,8 +23,8 @@ public class SpiderAI : MonoBehaviour {
 				int rand = Random.Range (0, changeDirProbability);
 
 				if (rand == 0) {
-						direction.x = Random.Range (0.1f, 1.0f);
-						direction.y = Random.Range (0.1f, 1.0f);
+						direction.x = Random.Range (-1.0f, 1.0f);
+						direction.y = Random.Range (-1.0f, 1.0f);
 						direction.Normalize ();
 				}
 
