@@ -82,8 +82,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e55d9b847f3924fd781dc886d069902f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: .5
-  cooldownTime: 1
+  damage: .100000001
+  cooldownTime: .5
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
