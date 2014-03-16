@@ -101,7 +101,7 @@ MonoBehaviour:
   winScore: 10
   startScore: 0
   score: 0
-  text: 'Score: '
+  text: 'Stars Left:'
   sound: {fileID: 8300000, guid: 420c559c8ce47ed4d9abbacc8a41e3be, type: 3}
 --- !u!132 &13200000
 GUIText:
