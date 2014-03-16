@@ -4,6 +4,7 @@ using System.Collections;
 public class GIveScore : MonoBehaviour {
 
 	private ScoreController scoreObject = null;
+	public float life = 0.1f;
 
 
 	// Use this for initialization
@@ -19,6 +20,7 @@ public class GIveScore : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject.CompareTag ("Player")) {
+			col.gameObject.GetComponent<Health>().giveLife(life);
 
 						scoreObject.addPoint ();
 						Destroy (gameObject);

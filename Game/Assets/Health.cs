@@ -8,6 +8,7 @@ public class Health : MonoBehaviour
 		public bool isDead = false;
 		public AudioClip[] hurtSounds;
 	public int playersLeft = 2;
+	public GameObject blood;
 
 		// Use this for initialization
 		void Start ()
@@ -34,10 +35,19 @@ public class Health : MonoBehaviour
 				yield return new WaitForSeconds (5);
 				Application.LoadLevel (Application.loadedLevel);
 		}
+
+		public void giveLife(float l) {
+		if ((health + l) <= 1.0f)
+				health += l;
+		}
 	
 		public void hurt (float dm)
 		{
 				health -= dm;
+
+				if (blood != null) {
+			Instantiate(blood, gameObject.transform.position, gameObject.transform.rotation);
+				}
 				
 
 
