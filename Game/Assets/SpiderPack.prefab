@@ -1873,8 +1873,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400006
 MonoBehaviour:
@@ -1917,8 +1918,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400012
 MonoBehaviour:
@@ -1961,8 +1963,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400018
 MonoBehaviour:
@@ -2005,8 +2008,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400024
 MonoBehaviour:
@@ -2049,8 +2053,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400030
 MonoBehaviour:
@@ -2093,8 +2098,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400036
 MonoBehaviour:
@@ -2137,8 +2143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400042
 MonoBehaviour:
@@ -2153,8 +2160,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400044
 MonoBehaviour:
@@ -2197,8 +2205,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400050
 MonoBehaviour:
@@ -2241,8 +2250,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400056
 MonoBehaviour:
@@ -2285,8 +2295,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400062
 MonoBehaviour:
@@ -2329,8 +2340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400068
 MonoBehaviour:
@@ -2373,8 +2385,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400074
 MonoBehaviour:
@@ -2417,8 +2430,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: .100000001
   isDead: 0
-  hurtSounds: []
-  playersLeft: 2
+  hurtSounds:
+  - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   blood: {fileID: 100000, guid: 8ef6edf91af5740ee9c8645f6d6c8dd1, type: 2}
 --- !u!114 &11400080
 MonoBehaviour:
