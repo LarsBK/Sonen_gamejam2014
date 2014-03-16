@@ -368,6 +368,76 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300014, guid: 6ba46cc8f85d8fd4fa8893a9274971d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &49594560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 49594563}
+  - 23: {fileID: 49594562}
+  - 102: {fileID: 49594561}
+  m_Layer: 0
+  m_Name: lvl_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!102 &49594561
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 49594560}
+  m_Text: Level 3
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 100
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278255400
+--- !u!23 &49594562
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 49594560}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!4 &49594563
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 49594560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -116.449944, y: 161.393631, z: .23046875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &55186592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,6 +2053,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &381133528
 HingeJoint2D:
@@ -2377,6 +2448,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &434132832
 HingeJoint2D:
@@ -2941,6 +3013,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 823bd9211593045d995bfcb4a03d8e04, type: 3}
   - {fileID: 8300000, guid: 50d3187a3b93a418c8eb4f905e2fd8a7, type: 3}
+  deathSound: {fileID: 8300000, guid: 907a4d6074f9e4f90a4bed6a4b7f9e05, type: 3}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!58 &498438175
 CircleCollider2D:
@@ -3095,6 +3168,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &517163878
 HingeJoint2D:
@@ -3575,6 +3649,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e26051af34d4a487ca27975b97f6cd27, type: 3}
   - {fileID: 8300000, guid: 1df66f193d1054f4280edaed677be53c, type: 3}
   - {fileID: 8300000, guid: fb2a8b66ec4fa434f8b983503bebeea5, type: 3}
+  deathSound: {fileID: 8300000, guid: ceff6912572da4bfea93905dcc52aa42, type: 3}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!58 &646975105
 CircleCollider2D:
@@ -5362,6 +5437,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &1219281328
 HingeJoint2D:
@@ -6008,6 +6084,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &1360113689
 HingeJoint2D:
@@ -6225,6 +6302,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &1362440020
 HingeJoint2D:
@@ -6685,6 +6763,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &1445839517
 HingeJoint2D:
@@ -6882,6 +6961,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &1454278799
 HingeJoint2D:
@@ -7903,6 +7983,76 @@ Transform:
   - {fileID: 1675337365}
   - {fileID: 209302893}
   m_Father: {fileID: 0}
+--- !u!1 &1774232268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1774232271}
+  - 23: {fileID: 1774232270}
+  - 102: {fileID: 1774232269}
+  m_Layer: 0
+  m_Name: lvl_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!102 &1774232269
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774232268}
+  m_Text: Level 1
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 100
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278255400
+--- !u!23 &1774232270
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774232268}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!4 &1774232271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774232268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -116.449944, y: 104.084305, z: .23046875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1781544157
 GameObject:
   m_ObjectHideFlags: 0
@@ -8146,6 +8296,76 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300014, guid: 6ba46cc8f85d8fd4fa8893a9274971d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1807049881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1807049884}
+  - 23: {fileID: 1807049883}
+  - 102: {fileID: 1807049882}
+  m_Layer: 0
+  m_Name: lvl_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!102 &1807049882
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807049881}
+  m_Text: Level 2
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 100
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278255400
+--- !u!23 &1807049883
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807049881}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!4 &1807049884
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807049881}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -116.449944, y: 128.408142, z: .23046875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1820137272
 GameObject:
   m_ObjectHideFlags: 0
@@ -9020,6 +9240,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &2020977719
 HingeJoint2D:
@@ -9296,6 +9517,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 2e37f64f3cdaa4fe280a8e73ebf4861e, type: 3}
   - {fileID: 8300000, guid: 8e5e5ce57f93d42e9bed1a8b730737fb, type: 3}
+  deathSound: {fileID: 0}
   blood: {fileID: 100000, guid: 1dd4056c22c3546bfb5b273da390ac00, type: 2}
 --- !u!233 &2060959799
 HingeJoint2D:
