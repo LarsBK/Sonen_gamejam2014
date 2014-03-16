@@ -15,6 +15,6 @@ public class TitleScreen : MonoBehaviour {
 	}
 
 	void stop() {
-		animation.Stop ();
+		animation.Stop();
 		}
 }
