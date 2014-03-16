@@ -245,7 +245,7 @@ GameObject:
   - 114: {fileID: 11400016}
   m_Layer: 0
   m_Name: Chain4
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,7 +265,7 @@ GameObject:
   - 114: {fileID: 11400012}
   m_Layer: 0
   m_Name: Chain3
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,7 +285,7 @@ GameObject:
   - 114: {fileID: 11400010}
   m_Layer: 0
   m_Name: Chain2
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,7 +305,7 @@ GameObject:
   - 114: {fileID: 11400008}
   m_Layer: 0
   m_Name: Chain5
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -325,7 +325,7 @@ GameObject:
   - 114: {fileID: 11400014}
   m_Layer: 0
   m_Name: Chain1P1
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,7 +345,7 @@ GameObject:
   - 114: {fileID: 11400022}
   m_Layer: 0
   m_Name: Chain1P1
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,7 +366,7 @@ GameObject:
   - 114: {fileID: 11400020}
   m_Layer: 0
   m_Name: Chain5
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -386,7 +386,7 @@ GameObject:
   - 114: {fileID: 11400018}
   m_Layer: 0
   m_Name: Chain2
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -406,7 +406,7 @@ GameObject:
   - 114: {fileID: 11400026}
   m_Layer: 0
   m_Name: Chain3
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -426,7 +426,7 @@ GameObject:
   - 114: {fileID: 11400024}
   m_Layer: 0
   m_Name: Chain4
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -752,7 +752,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100022}
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: .100000001
   m_AngularDrag: .0500000007
   m_GravityScale: 1
   m_FixedAngle: 1
@@ -767,7 +767,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: .100000001
   m_AngularDrag: .0500000007
   m_GravityScale: 1
   m_FixedAngle: 1
@@ -1221,6 +1221,7 @@ MonoBehaviour:
   hurtSounds:
   - {fileID: 8300000, guid: 823bd9211593045d995bfcb4a03d8e04, type: 3}
   - {fileID: 8300000, guid: 50d3187a3b93a418c8eb4f905e2fd8a7, type: 3}
+  playersLeft: 2
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1238,6 +1239,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e26051af34d4a487ca27975b97f6cd27, type: 3}
   - {fileID: 8300000, guid: 1df66f193d1054f4280edaed677be53c, type: 3}
   - {fileID: 8300000, guid: fb2a8b66ec4fa434f8b983503bebeea5, type: 3}
+  playersLeft: 2
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1252,6 +1254,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1266,6 +1269,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1280,6 +1284,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1294,6 +1299,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1308,6 +1314,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1322,6 +1329,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1336,6 +1344,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1350,6 +1359,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1364,6 +1374,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1378,6 +1389,7 @@ MonoBehaviour:
   health: 1
   isDead: 0
   hurtSounds: []
+  playersLeft: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
