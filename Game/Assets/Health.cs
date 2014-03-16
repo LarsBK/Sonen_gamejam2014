@@ -34,6 +34,11 @@ public class Health : MonoBehaviour
 				yield return new WaitForSeconds (5);
 				Application.LoadLevel (Application.loadedLevel);
 		}
+
+		public void giveLife(float l) {
+		if ((health + l) <= 1.0f)
+				health += l;
+		}
 	
 		public void hurt (float dm)
 		{
