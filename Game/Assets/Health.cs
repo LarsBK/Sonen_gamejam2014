@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 		public float health = 1.0f;
 		public bool isDead = false;
 		public AudioClip[] hurtSounds;
-	public int playersLeft = 2;
+	public static int playersLeft = 2;
 	public GameObject blood;
 
 		// Use this for initialization
@@ -32,8 +32,8 @@ public class Health : MonoBehaviour
 
 		IEnumerator gameOver ()
 		{
-		Time.timeScale = 0;
-				yield return new WaitForSeconds (5);
+		Time.timeScale = 0.01f;
+				yield return new WaitForSeconds (0.05f);
 		Time.timeScale = 1;
 				Application.LoadLevel (Application.loadedLevel);
 		}
